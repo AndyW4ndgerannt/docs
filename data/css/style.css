@@ -1,0 +1,11 @@
+.class {
+  column-count: 10;
+  column-gab: 40px;
+  clumn-rule: 1px solid lightblue;
+}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
