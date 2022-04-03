@@ -27,12 +27,6 @@
     background: #1abc9c;
     color: white;
     }
-
-  /* Column container */
-  .row {  
-    display: flex;
-    flex-wrap: wrap;
-    }
     
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
@@ -75,27 +69,6 @@
     float: left;
     padding: 8px 16px;
     text-decoration: none;
-  }
-    
-  .vertical-menu {
-  width: 200px;
-  }
-    
-  .vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  }
-
-  .vertical-menu a:hover {
-    background-color: #ccc;
-  }
-    
-  .vertical-menu a.active {
-    background-color: #04AA6D;
-    color: white;
   }
   
   .topnav {
@@ -200,7 +173,7 @@
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
 <!-- The flexible grid (content) -->
-<div class="row">
+<div>
   <div class="side">
     <h2>About Me</h2>
     <h5>Photo of me:</h5>
@@ -241,5 +214,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+  
 </body>
 </html>
